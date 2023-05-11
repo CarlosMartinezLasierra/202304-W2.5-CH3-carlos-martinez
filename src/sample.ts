@@ -1,4 +1,4 @@
-function fizzbuzz(start: number, end: number): Array<string | number> {
+export function fizzbuzz(start: number, end: number): Array<string | number> {
   const result: Array<string | number> = [];
 
   for (let num = start; num <= end; num++) {
@@ -15,4 +15,3 @@ function fizzbuzz(start: number, end: number): Array<string | number> {
 
   return result;
 }
-
